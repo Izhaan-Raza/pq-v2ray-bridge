@@ -55,7 +55,7 @@ http {
 
     server {
         listen 0.0.0.0:4433 ssl;
-        server_name pq-bridge.yourdomain.com; # CHANGE THIS TO YOUR DOMAIN
+        server_name pq-gcp-bridge.meowda.xyz; #my domain
 
         ssl_certificate     /etc/ssl/certs/falcon512_server.crt;
         ssl_certificate_key /etc/ssl/private/falcon512_server.key;
